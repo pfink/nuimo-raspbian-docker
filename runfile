@@ -1,0 +1,12 @@
+#!/bin/bash
+service dbus start
+hciconfig hci0 up
+hciconfig hci0
+#/opt/bluez/src/bluetoothd -nEd &>/opt/docker-logs/bluetooth &disown 
+#/opt/flic/armv6l/daemon -l -f flic.sqlite3 &>/opt/docker-logs/daemonlog &disown 
+#/opt/flic/armv6l/fliclib-cpp/flic > /opt/docker-logs/fliclog
+
+/opt/bluez/src/bluetoothd -nEd
+
+#start-stop-daemon --start --quiet --exec /armv6l/daemon > /dev/null
+#/armv6l/fliclib-cpp/flic
