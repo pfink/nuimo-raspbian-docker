@@ -1,4 +1,4 @@
-# nuimo-raspbian-docker
+# nuimo-raspbian-docker [![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
 ```
 docker build -t pfink2/rpi-nuimo-openhab:0.1 -t pfink2/rpi-nuimo-openhab:latest .
